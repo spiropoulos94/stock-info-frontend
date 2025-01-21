@@ -9,6 +9,7 @@ const StockList: React.FC = () => {
     { label: "Tesla", value: "tesla" },
     { label: "ASML", value: "asml" },
     { label: "Apple", value: "apple" },
+    { label: "NVIDIA", value: "nvidia" },
   ];
 
   return (
