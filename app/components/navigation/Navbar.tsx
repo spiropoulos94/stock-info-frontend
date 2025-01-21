@@ -13,10 +13,12 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className="bg-blue-600 text-white shadow-md">
+    <nav className="bg-blue-600 text-white shadow-md sticky top-0 z-10">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Brand */}
+        <Link href={"/"}>
         <div className="text-2xl font-bold">Stock Info</div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6">

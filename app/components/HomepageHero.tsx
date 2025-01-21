@@ -13,7 +13,7 @@ const HomepageHero: React.FC = () => {
     <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 w-full rounded-xl">
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-          Search for Any Stock, Fund or ETF
+          Search for Any Stock
         </h1>
         <p className="text-lg md:text-xl mb-8">
           Get a quick summary of its current state and make informed decisions.
